@@ -12,7 +12,7 @@ export const projectdata = [
     name: "TripBuddy - Travel Booking App",
     quote:
       "A seamless travel planning app that helps users discover, book, and manage trips with personalized experiences and intuitive design.",
-    src: "src/assets/Tripbuddy.png",
+    src: "/assets/Tripbuddy.png",
     live: "https://www.behance.net/gallery/215767155/Travel-Agency-App-UIUX-Case-Study",
     techStack: [
       "/assets/figma.svg",
