@@ -4,22 +4,22 @@ import AnimateOnView from "../Animations/AnimateOnView";
 const Techstack = () => {
   const skills = {
     Design: [
-      { name: "Figma", icon: "src/assets/figma.svg" },
-      { name: "Adobe XD", icon: "src/assets/adobe-xd.svg" },
-      { name: "Photoshop", icon: "src/assets/adobe-photoshop.svg" },
-      { name: "Ilustratoe", icon: "src/assets/adobe-illustrator.svg" },
+      { name: "Figma", icon: "/assets/figma.svg" },
+      { name: "Adobe XD", icon: "/assets/adobe-xd.svg" },
+      { name: "Photoshop", icon: "/assets/adobe-photoshop.svg" },
+      { name: "Ilustratoe", icon: "/assets/adobe-illustrator.svg" },
     ],
     Development: [
-      { name: "React", icon: "src/assets/react.svg" },
-      { name: "Node.js", icon: "src/assets/node.svg" },
-      { name: "MongoDB", icon: "src/assets/Mongodb.svg" },
-      { name: "Tailwind CSS", icon: "src/assets/tailwind-css.svg" },
-      { name: "Express", icon: "src/assets/Express.svg" },
+      { name: "React", icon: "/assets/react.svg" },
+      { name: "Node.js", icon: "/assets/Node.svg" },
+      { name: "MongoDB", icon: "/assets/Mongodb.svg" },
+      { name: "Tailwind CSS", icon: "/assets/tailwind-css.svg" },
+      { name: "Express", icon: "/assets/Express.svg" },
     ],
     Deployment: [
-      { name: "Vercel", icon: "src/assets/images.png" },
-      { name: "GitHub", icon: "src/assets/github.svg" },
-      { name: "Firebase", icon: "src/assets/firebase.svg" },
+      { name: "Vercel", icon: "/assets/images.png" },
+      { name: "GitHub", icon: "/assets/github.svg" },
+      { name: "Firebase", icon: "/assets/firebase.svg" },
     ],
   };
 

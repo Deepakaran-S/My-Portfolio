@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className=" fixed bg-black top-0 left-0 w-full z-50 grid grid-cols-3  h-20 py-4 justify-center items-center px-10  ">
       <div>
-        <img src="src/assets/Signature 3.png" className="h-14 pt-2 " alt="" />
+        <img src="/assets/Signature 3.png" className="h-14 pt-2 " alt="" />
       </div>
 
       <div>
@@ -26,7 +26,7 @@ const Header = () => {
             rel="noopener noreferrer"
           >
             <img
-              src="src/assets/linkedin.svg"
+              src="/assets/linkedin.svg"
               alt="LinkedIn"
               className="w-6 h-6 hover:opacity-70 transition"
             />
@@ -37,7 +37,7 @@ const Header = () => {
             rel="noopener noreferrer"
           >
             <img
-              src="src/assets/github.svg"
+              src="/assets/github.svg"
               alt="GitHub"
               className="w-6 h-6 hover:opacity-70 transition"
             />
@@ -48,7 +48,7 @@ const Header = () => {
             rel="noopener noreferrer"
           >
             <img
-              src="src/assets/behance.svg"
+              src="/assets/behance.svg"
               alt="Behance"
               className="w-6 h-6 hover:opacity-70 transition"
             />
