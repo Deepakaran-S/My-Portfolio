@@ -2,6 +2,8 @@ import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 import { useState } from "react";
 import {db} from "../Components/lib/firebaseConfig.js"
 import toast, { Toaster } from "react-hot-toast";
+import AnimateOnView from "../Animations/AnimateOnView.jsx";
+
 
 
 const Contact = () => {
@@ -36,7 +38,9 @@ const Contact = () => {
   return (
     <section id="contact" className="py-24 bg-black text-white">
       <div className="max-w-4xl mx-auto px-4 text-center">
-        <h2 className="text-3xl font-bold mb-4">Let's Connect</h2>
+        <div className="justify-center items-center pb-10 md:pb-16 flex" >
+          <AnimateOnView text={"Let's Connect"} />
+        </div>
         <p className="text-gray-400 mb-10">
           Have a project in mind or want to collaborate? Drop me a message.
         </p>

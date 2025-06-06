@@ -31,7 +31,7 @@ export const ProjectShowcase = ({ projects, autoplay = false }) => {
   const randomRotateY = () => Math.floor(Math.random() * 21) - 10;
 
   return (
-    <div className="mx-auto w-full max-w-screen-xl px-4 sm:px-6 lg:px-8 py-14 font-sans md:border rounded-3xl shadow-xl border-gray-300 dark:border-neutral-800 antialiased">
+    <div className="mx-auto w-full max-w-screen-xl px-8 border sm:px-6 lg:px-8 py-5 md:py-14 font-sans md:border rounded-3xl shadow-xl border-gray-300 dark:border-neutral-800 antialiased">
       <div className="flex flex-col lg:flex-row items-center justify-center gap-10 md:gap-28">
         {/* Layered Image Section */}
         <div className="relative w-[250px] sm:w-[280px] md:w-[300px] h-[300px] sm:h-[340px] md:h-[360px] flex-shrink-0">

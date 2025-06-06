@@ -11,46 +11,65 @@ const Header = () => {
 
       <div>
         <ul className="md:flex gap-6 hidden  items-center justify-center py-2 text-white ">
-       <Link to="home" smooth={true} duration={500}>  <li className="hover:text-gray-400 cursor-pointer">Home</li> </Link>  
-        <Link to="projects" smooth={true} duration={500}>  <li className="hover:text-gray-400 cursor-pointer">Projects</li> </Link>  
-        <Link to="aboutme" smooth={true} duration={500}>  <li className="hover:text-gray-400 cursor-pointer">About Me</li> </Link>  
-        <Link to="contact" smooth={true} duration={500}>  <li className="hover:text-gray-400 cursor-pointer">Contact</li> </Link>     
+          <Link to="home" smooth={true} duration={500}>
+            {" "}
+            <li className="hover:text-gray-400 cursor-pointer">Home</li>{" "}
+          </Link>
+          <Link to="projects" smooth={true} duration={500}>
+            {" "}
+            <li className="hover:text-gray-400 cursor-pointer">
+              Projects
+            </li>{" "}
+          </Link>
+          <Link to="aboutme" smooth={true} duration={500}>
+            {" "}
+            <li className="hover:text-gray-400 cursor-pointer">
+              About Me
+            </li>{" "}
+          </Link>
+          <Link to="contact" smooth={true} duration={500}>
+            {" "}
+            <li className="hover:text-gray-400 cursor-pointer">Contact</li>{" "}
+          </Link>
         </ul>
       </div>
 
-      <div className="flex  items-end justify-end">
-        <div className=" md:flex hidden gap-6 ">
+      <div className="flex items-center md:items-end justify-end">
+        <div className="flex gap-3 sm:gap-6 items-center justify-center sm:justify-start whitespace-nowrap">
           <a
             href="https://www.linkedin.com/in/deepakaran-s/"
             target="_blank"
             rel="noopener noreferrer"
+            className="shrink-0"
           >
             <img
               src="/assets/linkedin.svg"
               alt="LinkedIn"
-              className="w-6 h-6 hover:opacity-70 transition"
+              className="w-5 h-5 sm:w-6 sm:h-6 hover:opacity-70 transition"
             />
           </a>
           <a
             href="https://github.com/Deepakaran-S"
             target="_blank"
             rel="noopener noreferrer"
+            className="shrink-0"
           >
             <img
               src="/assets/github.svg"
               alt="GitHub"
-              className="w-6 h-6 hover:opacity-70 transition"
+              className="w-5 h-5 sm:w-6 sm:h-6 hover:opacity-70 transition"
             />
           </a>
           <a
             href="https://www.behance.net/maddys4"
             target="_blank"
             rel="noopener noreferrer"
+            className="shrink-0"
           >
             <img
               src="/assets/behance.svg"
               alt="Behance"
-              className="w-6 h-6 hover:opacity-70 transition"
+              className="w-5 h-5 sm:w-6 sm:h-6 hover:opacity-70 transition"
             />
           </a>
         </div>
@@ -91,16 +110,23 @@ const Header = () => {
       </div>
 
       {isMenuopen && (
-  <div className="absolute top-20 left-0 w-full bg-black  z-40 px-6 py-4">
-    <ul className="flex flex-col gap-4 text-sm text-white">
-      <Link to="home" smooth={true} duration={500}><li className="hover:text-gray-300 cursor-pointer">Home</li></Link>  
-      <Link to="projects" smooth={true} duration={500}><li className="hover:text-gray-300 cursor-pointer">Projects</li></Link>  
-      <Link to="aboutme" smooth={true} duration={500}><li className="hover:text-gray-300 cursor-pointer">About Me</li></Link>  
-      <Link to="contact" smooth={true} duration={500}><li className="hover:text-gray-300 cursor-pointer">Contact</li></Link>  
-    </ul>
-  </div>
-)}
-
+        <div className="absolute top-20 left-0 w-full bg-black  z-40 px-6 py-4">
+          <ul className="flex flex-col gap-4 text-sm text-white">
+            <Link to="home" smooth={true} duration={500}>
+              <li className="hover:text-gray-300 cursor-pointer">Home</li>
+            </Link>
+            <Link to="projects" smooth={true} duration={500}>
+              <li className="hover:text-gray-300 cursor-pointer">Projects</li>
+            </Link>
+            <Link to="aboutme" smooth={true} duration={500}>
+              <li className="hover:text-gray-300 cursor-pointer">About Me</li>
+            </Link>
+            <Link to="contact" smooth={true} duration={500}>
+              <li className="hover:text-gray-300 cursor-pointer">Contact</li>
+            </Link>
+          </ul>
+        </div>
+      )}
     </div>
   );
 };
