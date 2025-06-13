@@ -12,7 +12,7 @@ const Herosection = () => {
           <h3 className=" text-2xl  md:text-6xl ">
             Hi, I am Deepakaran S <br />
           </h3>
-          <h1 className="  text-2xl md:text-5xl font-bold leading-[1.5] bg-gradient-to-r from-purple-500  via-violet-500 to-pink-500 bg-clip-text text-transparent">
+          <h1 className=" px-2 text-2xl md:text-5xl font-bold leading-[1.5] bg-gradient-to-r from-purple-500  via-violet-500 to-pink-500 bg-clip-text text-transparent">
             MERN Stack Developer & UI/UX Designer
           </h1>
           <p className="text-[10px] md:text-lg px-4 " >
@@ -28,7 +28,7 @@ const Herosection = () => {
                 Hire Me
               </div>
             </button> </Link>
-            <a href="https://drive.google.com/uc?export=download&id=1W7Dd1aZEH0wrcu9w3MgghTuG-DlMY1t-">
+            <a href="https://drive.google.com/file/d/18NYnHzIXFncJxJhn8H_uptWbwUKoBY4r/view?usp=sharing">
             <button className="p-[3px] relative">
               <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
               <div className="md:px-8 px-4 py-1 md:py-2  bg-black rounded-[6px]  relative group transition duration-200 text-white hover:bg-transparent">
