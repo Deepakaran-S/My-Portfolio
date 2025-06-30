@@ -28,7 +28,7 @@ const Herosection = () => {
                 Hire Me
               </div>
             </button> </Link>
-            <a href="https://drive.google.com/file/d/18NYnHzIXFncJxJhn8H_uptWbwUKoBY4r/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1s22RhcM4VDrnQUOTL79GkLvhbHg3GcUh/view?usp=sharing">
             <button className="p-[3px] relative">
               <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
               <div className="md:px-8 px-4 py-1 md:py-2  bg-black rounded-[6px]  relative group transition duration-200 text-white hover:bg-transparent">

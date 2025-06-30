@@ -1,8 +1,22 @@
 export const projectdata = [
   {
+    name: "CourseHub",
+    quote:
+      "CourseHub is a MERN-based learning platform with role-based dashboards for students, teachers, and admins. It offers course creation, video lessons, quizzes, cart functionality, enrollment, and progress tracking. Designed with a responsive UI and smooth transitions for a seamless user experience.",
+    src: "/assets/Coursehub.jpg",
+    github: "https://github.com/Deepakaran-S/CourseHub",
+    live: "https://course-hub-fawn.vercel.app/",
+    techStack: [
+      "/assets/react.svg",
+      "/assets/tailwind-css.svg",
+      "/assets/firebase.svg",
+      "/assets/Mongodb.svg",
+    ],
+  },
+  {
     name: "Trash To Treasure-Landing page",
     quote:
-      "A platform to give away unused items and discover secondhand treasures in your area.",
+      "Trash-to-Treasure is an eco-friendly platform that promotes reusing unwanted items by connecting givers and takers. It features a clean, responsive landing page designed for clarity and engagement. Built with a mobile-first approach using React.js, Tailwind CSS, and Figma.",
     src:  "/assets/T2T.jpg",
     github: "https://github.com/Deepakaran-S/TrashToTreasure",
     live: "https://trash-to-treasure-henna.vercel.app/",
@@ -21,18 +35,5 @@ export const projectdata = [
       "/assets/balsamiq.png",
     ],
   },
-  {
-    name: "CourseHub (Coming Soon)",
-    quote:
-      "A modern learning platform with integrated video lessons, quizzes, and progress tracking for Teachers.",
-    src: "/assets/Coursehub.jpg",
-    github: "https://github.com/deepakaran/coursehub",
-    live: "https://coursehub.live",
-    techStack: [
-      "/assets/react.svg",
-      "/assets/tailwind-css.svg",
-      "/assets/firebase.svg",
-      "/assets/Mongodb.svg",
-    ],
-  },
+  
 ];
