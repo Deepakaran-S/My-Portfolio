@@ -35,5 +35,32 @@ export const projectdata = [
       "/assets/balsamiq.png",
     ],
   },
+  {
+    name: "Blog Site with CRUD",
+    quote:
+      "A full-stack blog platform with secure auth, rich post editor, and complete CRUD for articles. Features search, tags, responsive UI, and robust API built on Express with MongoDB.",
+    src: "/assets/blog.jpg",
+    github: "https://github.com/Deepakaran-S/BlogWebsite",
+    live: "https://blog-website-azure-theta.vercel.app/",
+    techStack: [
+      "/assets/react.svg",
+      "/assets/tailwind-css.svg",
+      "/assets/Express.svg",
+      "/assets/Mongodb.svg",
+    ],
+  },
+  {
+    name: "CineBook – Ticket Booking API",
+    quote:
+      "Backend-only ticketing API with role-based access: audience can browse and book shows while theater owners manage screenings, seats, and schedules. Built with Express, Node, and SQL via Prisma-style tooling, focusing on secure auth, validation, and clean REST endpoints.",
+    src: "/assets/cine.jpg",
+    github: "https://github.com/Deepakaran-S/CineBook",
+    live: "",
+    techStack: [
+      "/assets/Express.svg",
+      "/assets/Node.svg",
+      "/assets/Javascript.svg",
+    ],
+  },
   
 ];
